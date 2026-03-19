@@ -7,7 +7,7 @@ int main(){
 	double perim, square, diagonal;
 	cin >> side1 >> side2; // вводим две стороны прямоугольника
 	
-	if (side1<=0 || side2<=0){ // защита 
+	if (side1<=0 || side2<=0){ // защита от неправильных значений 
 		cout<< "ERROR!" <<endl;
 		return 0;
 	}
