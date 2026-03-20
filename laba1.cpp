@@ -14,7 +14,7 @@ int main(){
 
 	perim = ( side1 + side2 ) * 2;
 	square = side1 * side2;
-	diagonal = sqrt( pow(side1, 2) + pow(side2, 2) );
+	diagonal = sqrt( pow(side1, 2) + pow(side2, 2) ); //hello
 	
 	cout << "perimetr = " << perim << endl;
 	cout << "square = " << square << endl;
